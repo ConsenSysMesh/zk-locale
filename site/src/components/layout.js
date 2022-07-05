@@ -2,7 +2,7 @@ import * as React from 'react'
 
 function Layout(props) {
   return (
-    <main>
+    <main className='container mx-auto'>
       {props.children}
     </main>
   )
