@@ -1,11 +1,11 @@
-import * as React from 'react';
+import * as React from 'react'
 
-function Layout({ props }) {
+function Layout(props) {
   return (
     <main>
-      {props}
+      {props.children}
     </main>
-  );
+  )
 }
 
 export default Layout;
