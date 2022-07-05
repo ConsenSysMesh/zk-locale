@@ -21,7 +21,7 @@ module.exports = {
   ],
   rules: {
     'no-use-before-define': 'off',
-    'react/prop-types': [0, {ignore: 'r'}]
+    'react/prop-types': [0, {ignore: 'r'}],
     'react/jsx-filename-extension': [1, { allow: 'as-needed' }],
   },
 };
